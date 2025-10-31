@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.content-card {
+  width: 100%;
+  max-width: 900px;
+  padding: 2rem;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
